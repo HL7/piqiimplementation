@@ -1,0 +1,168 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.xprod.uv.piqiimplementation",
+  "url": "http://hl7.org/xprod/ig/uv/piqiimplementation/ImplementationGuide/hl7.xprod.uv.piqiimplementation",
+  "version": "1.0.0-ballot",
+  "name": "CrossParadigmPIQIImplementation",
+  "title": "HL7 Cross-Paradigm Implementation Guide: Patient Information Quality Improvement (PIQI) Framework, Edition 1",
+  "status": "draft",
+  "publisher": "HL7 Cross-Group Projects Work Group",
+  "contact": [
+    {
+      "name": "HL7 Cross-Group Projects Work Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.hl7.org/Special/committees/cgp"
+        },
+        {
+          "system": "email",
+          "value": "cgp@lists.hl7.org"
+        }
+      ]
+    }
+  ],
+  "description": "HL7 Cross-Paradigm Implementation Guide: Patient Information Quality Improvement (PIQI) Framework, Edition 1",
+  "packageId": "hl7.xprod.uv.piqiimplementation",
+  "fhirVersion": [
+    "5.0.0"
+  ],
+  "definition": {
+    "resource": [],
+    "page": {
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "title": "Home",
+          "generation": "markdown",
+          "name": "index.html",
+          "sourceUrl": "index.html"
+        },
+        {
+          "title": "PIQI Background",
+          "generation": "markdown",
+          "name": "background.html",
+          "sourceUrl": "background.html"
+        },
+        {
+          "title": "PIQI Model",
+          "generation": "markdown",
+          "name": "model.html",
+          "sourceUrl": "model.html"
+        },
+        {
+          "title": "Guidance",
+          "generation": "markdown",
+          "name": "guidance.html",
+          "sourceUrl": "guidance.html"
+        },
+        {
+          "title": "Use Cases",
+          "generation": "markdown",
+          "name": "usecases.html",
+          "sourceUrl": "usecases.html"
+        },
+        {
+          "title": "HL7 V2 PIQI",
+          "generation": "markdown",
+          "name": "hl7v2piqi.html",
+          "sourceUrl": "hl7v2piqi.html"
+        },
+        {
+          "title": "HL7 V2 PIQI Examples",
+          "generation": "markdown",
+          "name": "hl7v2examples.html",
+          "sourceUrl": "hl7v2examples.html"
+        },
+        {
+          "title": "HL7 CDA PIQI",
+          "generation": "markdown",
+          "name": "hl7cdapiqi.html",
+          "sourceUrl": "hl7cdapiqi.html"
+        },
+        {
+          "title": "HL7 CDA PIQI Examples",
+          "generation": "markdown",
+          "name": "hl7cdaexamples.html",
+          "sourceUrl": "hl7cdaexamples.html"
+        },
+        {
+          "title": "HL7 FHIR PIQI",
+          "generation": "markdown",
+          "name": "hl7fhirpiqi.html",
+          "sourceUrl": "hl7fhirpiqi.html"
+        },
+        {
+          "title": "HL7 FHIR PIQI Design Background",
+          "generation": "markdown",
+          "name": "hl7fhirdesignbackground.html",
+          "sourceUrl": "hl7fhirdesignbackground.html"
+        },
+        {
+          "title": "PIQI Terminology",
+          "generation": "markdown",
+          "name": "terminology.html",
+          "sourceUrl": "terminology.html"
+        },
+        {
+          "title": "External Standards",
+          "generation": "markdown",
+          "name": "externalstandards.html",
+          "sourceUrl": "externalstandards.html"
+        },
+        {
+          "title": "Bibliography",
+          "generation": "markdown",
+          "name": "bibliography.html",
+          "sourceUrl": "bibliography.html"
+        },
+        {
+          "title": "Change History",
+          "generation": "markdown",
+          "name": "changes.html",
+          "sourceUrl": "changes.html"
+        }
+      ],
+      "name": "toc.html",
+      "sourceUrl": "toc.html"
+    },
+    "parameter": [
+      {
+        "code": {
+          "code": "copyrightyear",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "2025+"
+      },
+      {
+        "code": {
+          "code": "releaselabel",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "draft"
+      },
+      {
+        "code": {
+          "code": "shownav",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "code": "jira-code",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "piqi-implementation"
+      },
+      {
+        "code": {
+          "code": "path-history",
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"
+        },
+        "value": "http://hl7.org/xprod/ig/uv/piqiimplementation/history.html"
+      }
+    ]
+  }
+}

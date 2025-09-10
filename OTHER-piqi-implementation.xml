@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="cgp" url="http://hl7.org/xprod/ig/uv/piqiimplementation">
+<version code="current" url=""/>
+<artifactPageExtension value="-definitions"/>
+<artifactPageExtension value="-examples"/>
+<artifactPageExtension value="-mappings"/>
+<page key="NA" name="(NA)"/>
+<page key="many" name="(many)"/>
+<page key="artifacts" name="Artifacts Summary"/>
+<page key="bibliography" name="Bibliography"/>
+<page key="changes" name="Change History"/>
+<page key="externalstandards" name="External Standards"/>
+<page key="guidance" name="Guidance"/>
+<page key="hl7cdapiqi" name="HL7 CDA PIQI"/>
+<page key="hl7cdaexamples" name="HL7 CDA PIQI Examples"/>
+<page key="hl7fhirpiqi" name="HL7 FHIR PIQI"/>
+<page key="hl7fhirdesignbackground" name="HL7 FHIR PIQI Design Background"/>
+<page key="hl7v2piqi" name="HL7 V2 PIQI"/>
+<page key="hl7v2examples" name="HL7 V2 PIQI Examples"/>
+<page key="index" name="Home"/>
+<page key="background" name="PIQI Background"/>
+<page key="model" name="PIQI Model"/>
+<page key="terminology" name="PIQI Terminology"/>
+<page key="toc" name="Table of Contents"/>
+<page key="usecases" name="Use Cases"/>
+</specification>

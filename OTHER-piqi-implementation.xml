@@ -7,9 +7,7 @@
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
-<page key="bibliography" name="Bibliography"/>
 <page key="changes" name="Change History"/>
-<page key="externalstandards" name="External Standards"/>
 <page key="guidance" name="Guidance"/>
 <page key="hl7cdapiqi" name="HL7 CDA PIQI"/>
 <page key="hl7cdaexamples" name="HL7 CDA PIQI Examples"/>
@@ -20,7 +18,6 @@
 <page key="index" name="Home"/>
 <page key="background" name="PIQI Background"/>
 <page key="model" name="PIQI Model"/>
-<page key="terminology" name="PIQI Terminology"/>
 <page key="toc" name="Table of Contents"/>
 <page key="usecases" name="Use Cases"/>
 </specification>

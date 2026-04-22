@@ -6,17 +6,12 @@
 <artifactPageExtension value="-mappings"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
-<page key="artifacts" name="Artifacts Summary"/>
 <page key="changes" name="Change History"/>
 <page key="guidance" name="Guidance"/>
-<page key="hl7cdapiqi" name="HL7 CDA PIQI"/>
-<page key="hl7cdaexamples" name="HL7 CDA PIQI Examples"/>
-<page key="hl7fhirpiqi" name="HL7 FHIR PIQI"/>
-<page key="hl7fhirdesignbackground" name="HL7 FHIR PIQI Design Background"/>
-<page key="hl7v2piqi" name="HL7 V2 PIQI"/>
-<page key="hl7v2examples" name="HL7 V2 PIQI Examples"/>
 <page key="index" name="Home"/>
+<page key="artifacts" name="PIQI Artifacts"/>
 <page key="background" name="PIQI Background"/>
+<page key="examples" name="PIQI Examples"/>
 <page key="model" name="PIQI Model"/>
 <page key="toc" name="Table of Contents"/>
 <page key="usecases" name="Use Cases"/>

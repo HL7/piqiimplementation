@@ -37,18 +37,10 @@ pages:
     title: Guidance
   usecases.md:
     title: Use Cases
-  hl7v2piqi.md:
-    title: HL7 V2 PIQI
-  hl7v2examples.md:
-    title: HL7 V2 PIQI Examples
-  hl7cdapiqi.md:
-    title: HL7 CDA PIQI
-  hl7cdaexamples.md:
-    title: HL7 CDA PIQI Examples
-  hl7fhirpiqi.md:
-    title: HL7 FHIR PIQI
-  hl7fhirdesignbackground.md:
-    title: HL7 FHIR PIQI Design Background
+  artifacts.md:
+    title: PIQI Artifacts
+  examples.md:
+    title: PIQI Examples
   changes.md:
     title: Change History
   
@@ -74,17 +66,13 @@ menu:
     EHRs: usecases.html#electronic-health-records
     Provider: usecases.html#provider
     
-  V2: 
-    V2 PIQI: hl7v2piqi.html
-    V2 Examples: hl7v2examples.html
-    
-  CDA:
-    CDA PIQI: hl7cdapiqi.html
-    CDA Examples: hl7cdaexamples.html
-    
-  FHIR:
-    FHIR Guidance: hl7fhirpiqi.html
-    FHIR Design Background: hl7fhirdesignbackground.html
+  Artifacts: artifacts.html
+  Examples: examples.html
+  Support:
+    Project Home: https://confluence.hl7.org/spaces/CGP/pages/345544532/Patient+Information+Quality+Improvement+PIQI+Framework
+    Discussion Forum: https://chat.fhir.org/#narrow/channel/523549-PIQI
+    Propose a Change: https://jira.hl7.org/secure/CreateIssueDetails!init.jspa?pid=10405&customfield_11302=FHIR-us-carin-bb&issuetype=10600
+  
   
   Change Notes: changes.html
     

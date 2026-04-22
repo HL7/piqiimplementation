@@ -62,42 +62,25 @@
       </li>
     </ul>
   </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">V2
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="hl7v2piqi.html">V2 PIQI</a>
-      </li>
-      <li>
-        <a href="hl7v2examples.html">V2 Examples</a>
-      </li>
-    </ul>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="examples.html">Examples</a>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">CDA
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="hl7cdapiqi.html">CDA PIQI</a>
+        <a href="https://confluence.hl7.org/spaces/CGP/pages/345544532/Patient+Information+Quality+Improvement+PIQI+Framework">Project Home</a>
       </li>
       <li>
-        <a href="hl7cdaexamples.html">CDA Examples</a>
-      </li>
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">FHIR
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="hl7fhirpiqi.html">FHIR Guidance</a>
+        <a href="https://chat.fhir.org/#narrow/channel/523549-PIQI">Discussion Forum</a>
       </li>
       <li>
-        <a href="hl7fhirdesignbackground.html">FHIR Design Background</a>
+        <a href="https://jira.hl7.org/secure/CreateIssueDetails!init.jspa?pid=10405&customfield_11302=FHIR-us-carin-bb&issuetype=10600">Propose a Change</a>
       </li>
     </ul>
   </li>

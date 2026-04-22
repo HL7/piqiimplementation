@@ -60,33 +60,13 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "hl7v2piqi.html",
-          "title": "HL7 V2 PIQI",
+          "nameUrl": "artifacts.html",
+          "title": "PIQI Artifacts",
           "generation": "markdown"
         },
         {
-          "nameUrl": "hl7v2examples.html",
-          "title": "HL7 V2 PIQI Examples",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "hl7cdapiqi.html",
-          "title": "HL7 CDA PIQI",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "hl7cdaexamples.html",
-          "title": "HL7 CDA PIQI Examples",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "hl7fhirpiqi.html",
-          "title": "HL7 FHIR PIQI",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "hl7fhirdesignbackground.html",
-          "title": "HL7 FHIR PIQI Design Background",
+          "nameUrl": "examples.html",
+          "title": "PIQI Examples",
           "generation": "markdown"
         },
         {

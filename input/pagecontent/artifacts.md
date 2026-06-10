@@ -4,7 +4,7 @@ This page documents the core PIQI schema artifacts currently included in this im
 
 ### Evaluation Report Schema
 
-- **File:** [evaluationreport.json](../schemas/evaluationreport.json)
+- **File:** [evaluationreport.json](evaluationreport.json)
 - **Purpose:** Defines the shape of a PIQI scoring response payload (`PIQXLResponse`) returned after an evaluation run.
 - **What it includes:**
 	- Run-level status metadata such as `succeeded`, `errorMessage`, and elapsed processing time.
@@ -15,7 +15,7 @@ This page documents the core PIQI schema artifacts currently included in this im
 
 ### Rubric Schema
 
-- **File:** [rubric.json](../schemas/rubric.json)
+- **File:** [rubric.json](rubric.json)
 - **Purpose:** Defines the structure of an evaluation rubric that organizes SAMs into a scored set of criteria for a specific model and source.
 - **What it includes:**
 	- Rubric identity and governance metadata (`name`, `mnemonic`, `description`, `version`, `authorityName`).
@@ -25,7 +25,7 @@ This page documents the core PIQI schema artifacts currently included in this im
 
 ### SAM Schema
 
-- **File:** [sam.json](../schemas/sam.json)
+- **File:** [sam.json](sam.json)
 - **Purpose:** Defines the structure of a Simple Assessment Module (SAM), the atomic reusable quality check in PIQI.
 - **What it includes:**
 	- SAM identity and descriptive fields (`mnemonic`, `name`, `description`, `failName`).

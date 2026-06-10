@@ -1,3 +1,26 @@
+### Consensus PIQI Instances
+
+To support broad interoperability and repeatable benchmarking, PIQI publishes consensus instances that are community-vetted and intended for common baseline use across implementations. These artifacts pair a shared PIQI model with a corresponding evaluation rubric so organizations can evaluate data quality using consistent structure and scoring logic.
+
+#### Clinical Data Model
+
+- **File:** [PAT_CLINICAL_V1.json](PAT_CLINICAL_V1.json)
+- **Role in consensus baseline:** Defines the canonical patient-centered PIQI model used as the reference structure for community-aligned clinical quality evaluation.
+- **What it captures:**
+	- Fifteen data classes spanning core clinical content domains, including demographics, allergies, conditions, immunizations, labs, imaging, medications, procedures, vitals, devices, health assessments, documents, encounters, goals, and provider information.
+	- Attribute-level definitions (for example, codeable concepts and simple attributes), role metadata (for example, start/end datetime semantics), cardinality expectations, and remediation weighting by data class.
+- **Why it is consensus-relevant:** Establishes a common structural target for PIQI implementations so quality checks and score interpretation are performed against the same clinical data model assumptions.
+
+#### Clinical Data Evaluation Rubric
+
+- **File:** [USCDI_v3_1.json](USCDI_v3_1.json)
+- **Role in consensus baseline:** Provides the shared USCDI-inspired evaluation rubric that operationalizes data quality checks for the clinical model.
+- **What it captures:**
+	- A sequenced criteria set (66 total checks) with predominantly scoring rules, plus informational checks.
+	- Concrete SAM-driven validation logic across entities, including terminology membership checks (for example, LOINC, SNOMED-CT, RxNorm, ICD-10-CM), value set/list validation, conditional checks, and temporal validity rules such as past-date validation.
+	- Criterion-level scoring controls such as weighting and criticality to standardize how failures contribute to quality outcomes.
+- **Why it is consensus-relevant:** Creates a widely reusable, transparent scoring baseline so different PIQI adopters can evaluate similar clinical datasets with consistent criteria and comparable results.
+
 ### Schema Artifacts
 
 To support consistent evaluation across PIQI implementations, each core PIQI component adheres to a specific json schema. These schemas define the structure of the modular PIQI components and the resulting data quality scoring responses.

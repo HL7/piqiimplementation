@@ -51,7 +51,8 @@ menu:
   
   Model: model.html
   
-  Guidance: guidance.html
+  Guidance:
+    Model Design: guidance.html#model-design
   
   Use Cases:
     General Use Case: usecases.html

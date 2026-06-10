@@ -94,10 +94,6 @@
         "value": "piqi-implementation"
       },
       {
-        "code": "path-other",
-        "value": "input/other"
-      },
-      {
         "code": "path-history",
         "value": "http://hl7.org/xprod/ig/uv/piqiimplementation/history.html"
       }

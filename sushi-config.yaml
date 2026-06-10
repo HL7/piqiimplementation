@@ -24,7 +24,6 @@ publisher:
 parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
   shownav: 'true'  
   jira-code: 'piqi-implementation'
-  path-other: "input/other"
 
 
 pages:
@@ -72,9 +71,9 @@ menu:
   Examples: examples.html
   Support:
     Project Home: https://confluence.hl7.org/spaces/CGP/pages/345544532/Patient+Information+Quality+Improvement+PIQI+Framework
+    Propose a Change: https://jira.hl7.org/secure/CreateIssueDetails!init.jspa?pid=12501&issuetype=10600&customfield_11302=OTHER-piqi-framework
     Discussion Forum: https://chat.fhir.org/#narrow/channel/523549-PIQI
-    Propose a Change: https://jira.hl7.org/secure/CreateIssueDetails!init.jspa?pid=10405&customfield_11302=FHIR-us-carin-bb&issuetype=10600
-  
+
   
   Change Notes: changes.html
     

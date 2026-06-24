@@ -60,6 +60,21 @@
           "generation": "markdown"
         },
         {
+          "nameUrl": "piqi_framework.html",
+          "title": "PIQI Framework",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "sams.html",
+          "title": "Simple Assessment Modules (SAMS)",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "evaluation.html",
+          "title": "Evaluation",
+          "generation": "markdown"
+        },
+        {
           "nameUrl": "artifacts.html",
           "title": "PIQI Artifacts",
           "generation": "markdown"

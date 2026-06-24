@@ -7,12 +7,15 @@
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="changes" name="Change History"/>
+<page key="evaluation" name="Evaluation"/>
 <page key="guidance" name="Guidance"/>
 <page key="index" name="Home"/>
 <page key="artifacts" name="PIQI Artifacts"/>
 <page key="background" name="PIQI Background"/>
 <page key="examples" name="PIQI Examples"/>
+<page key="piqi_framework" name="PIQI Framework"/>
 <page key="model" name="PIQI Model"/>
+<page key="sams" name="Simple Assessment Modules (SAMS)"/>
 <page key="toc" name="Table of Contents"/>
 <page key="usecases" name="Use Cases"/>
 </specification>

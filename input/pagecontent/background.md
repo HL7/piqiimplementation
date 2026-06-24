@@ -9,25 +9,25 @@ The PIQI Framework is structured into four distinct functional but interrelated 
 
 #### Taxonomy of Dimensions
 
-This foundational component establishes a well-organized taxonomy that categorizes the various dimensions to be measured in healthcare data quality assessment. A PIQI dimension may be accuracy, completeness, consistency, timeliness or reliability, among others. The taxonomy serves as a structured framework for classifying the aspects of data quality that need to be evaluated. By categorizing these dimensions, it enables a clear understanding of what aspects of data quality are being assessed, providing a standardized and consistent foundation for the assessment process.
+This foundational component establishes a well-organized taxonomy that categorizes the various dimensions to be measured in healthcare data quality assessment. A PIQI dimension may be accuracy, completeness, consistency, timeliness or reliability, among others. The taxonomy serves as a structured framework for classifying the aspects of data quality that need to be evaluated. A dimension is an aspect of data quality that provides insight into the nature of a data quality failure. By categorizing these dimensions, it enables a clear understanding of what aspects of data quality are being assessed, providing a standardized and consistent foundation for the assessment process.
 
 #### Information Model
 
-This component of the framework focuses on the patient data elements and characteristics assessed for a use case (e.g., USCDI, CACDI, billing). It represents a simplified information model that defines and organizes the patient-centric data elements that are most important to ensuring the accurate representation of a given patient, ensuring alignment with the evolving needs of healthcare information models. This information model serves as the core data structure against which data quality assessments are performed. It may include the data elements related to patient demographics, medical history, treatment records, and any other pertinent healthcare information. The model facilitates the mapping of these elements to the taxonomy of dimensions, ensuring that each data element is assessed against relevant criteria.
+This component of the framework defines the patient data elements and characteristics assessed for a use case (e.g., USCDI, CACDI, billing). There is no single PIQI information model - implementers define the model to suit the use case. It represents a simplified information model that defines and organizes the patient-centric data elements that are most important to ensuring the accurate representation of a given patient, ensuring alignment with the evolving needs of healthcare information models. A PIQI information model serves as the core data structure against which data quality assessments are performed. It may include the data elements related to patient demographics, medical history, treatment records, and any other pertinent healthcare information. The model facilitates the mapping of these elements to the taxonomy of dimensions, ensuring that each data element is assessed against relevant criteria.
 
 #### Simple Assessment Module (SAM)
 
-A simple assessment module (SAM) is a logical measurement aligned to a qualitative dimension applied to a model element or characteristic according to a pattern. The input parameters of the module are based on the pattern of the assessment, but the returned result is always a ‘pass’ or ‘fail’ (or 0/1). These modules are intended to be organized into one or many hierarchical collections of SAMs to collectively paint a larger qualitative picture as defined by a given use case.
+A [simple assessment module (SAM)](sams.html) is a logical measurement aligned to a dimension of quality applied to a model element or characteristic according to a pattern. The input parameters of the module are based on the pattern of the assessment, but the returned result is always a ‘pass’ or ‘fail’ (or 0/1). These modules are intended to be organized into one or many hierarchical collections of SAMs to collectively paint a larger qualitative picture as defined by a given use case.
 
 #### Evaluation Criteria
 
-The Evaluation Criteria component represents a use case oriented hierarchical collection of simple assessments aligned to the patient information model. It is the function of the evaluation criteria to describe the relevance of each assessment to the acceptability of each characteristic, element, and essential patient data submission in its entirety, relative to a given use case.
+The [Evaluation Criteria](evaluation.html) component represents a use case oriented hierarchical collection of simple assessments aligned to the patient information model. It is the function of the evaluation criteria to describe the relevance of each assessment to the acceptability of each characteristic, element, and essential patient data submission in its entirety, relative to a given use case.
 
 ### Framework Benefits
 
 #### Standardized
 
-A healthcare specific taxonomy or qualitative dimension applied to a patient-centric information model can establish a common way of expressing and understanding the scope and nature of quality concerns that currently inhibit interoperability partners’ ability to trust patient information, regardless of whether it is local or received from an external entity.
+A healthcare specific taxonomy or dimension of quality applied to a patient-centric information model can establish a common way of expressing and understanding the scope and nature of quality concerns that currently inhibit interoperability partners’ ability to trust patient information, regardless of whether it is local or received from an external entity.
 
 #### Relevant
 
@@ -39,10 +39,12 @@ The use of a standardized information model coupled with a standard taxonomy as 
 
 ### PIQI Community of Practice
 
-The PIQI Framework is designed to be implemented within a community of practice with encapsulated, portable, content driven components, the ability to share knowledge and evolve, which establishes great potential for rapid evolution and adoption. 
-#### PIQI Model Extensions
-The PIQI Framework starts with a simple model intended to support the assessment of core clinical patient data.  The simplicity of this model allows for extension through the addition of attributes and data classes.  Ideally these extensions would be adopted into the core PIQI model through a standard process.
+The **PIQI Framework** is designed to be implemented by a **collaborative user community (a "community of practice")**, a network of stakeholders such as public health agencies, providers, EHR vendors, and analysts who share a common interest in improving patient data quality. Within this community, participants use encapsulated, portable, content-driven components; share knowledge and lessons learned; and evolve practices together. This collaborative approach creates strong potential for rapid refinement, broader adoption, and sustained improvement of the framework.
+#### Localized PIQI Models
+The PIQI Framework is designed to use simple models. Those models can be localized through the addition of data classes and attributes important to use cases.
 #### Shared Simple Assessment Modules
-While many of the foundational, attribute level SAMs are algorithmic, SAMs that apply to codable concepts, elements, data classes, and patient level data often require structured content in the form of value sets, tuples, and other data patterns.  These packages of SAMs and related content can be openly shared or licensed in a community portal.  More sophisticated algorithmic SAMs, perhaps based on generative AI, could also be hosted as RESTful services through wrapper SAM interfaces. 
+Many foundational, attribute-level SAMs are algorithmic, but SAMs that apply to codable concepts, elements, data classes, and patient-level data often require more structured content. This may take the form of value sets, tuples (ordered sets of related values treated as a single unit, such as patient identifier, date, and result value), or other data patterns. Packages of SAMs and their related content can be openly shared or licensed through a community portal. More advanced algorithmic SAMs, potentially powered by generative AI, could also be hosted as RESTful services via wrapper SAM interfaces.
 #### Shared Evaluation Rubrics
-While the Evaluation Rubrics in PIQI are designed to be configured to support the needs of the implementer, the ability to establish sanctioned standard Evaluation Rubrics is one of the most beneficial features of the PIQI Framework.  The ability to publish and share an evaluation Rubrics, along with its dependent SAMs and PIQI components can minimize duplication of effort and provide a powerful way to create a common basis for understanding data quality across the community.
+The PIQI Framework assesses patient data using collections of data quality criteria, referred to as Evaluation Rubrics. While the Evaluation Rubrics in PIQI are designed to be configured to support the needs of the implementer, the ability to establish sanctioned standard Evaluation Rubrics is one of the most beneficial features of the PIQI Framework.  The ability to publish and share evaluation Rubrics, along with its dependent SAMs and PIQI components can minimize duplication of effort and provide a powerful way to create a common basis for understanding data quality across the community.
+
+The community is still establishing how the sanctioned, standard Evaluation Rubrics may be developed and shared, as well as what common practices should be followed in their usage.

@@ -4,19 +4,27 @@ The Patient Information Quality Improvement Framework or PIQI Framework (pronoun
 
 Data fitness is one component of data quality where determination of data’s appropriateness for use in a specific context is ultimately declared by the person (data consumer) responsible for evaluating whether a dataset is adequate for its intended purpose. Evaluators of data fitness frequently do not have the requisite contextual basis to enable a judgement on a particular dataset, rendering the data inutile despite its potential to inform care quality. The data quality knowledge presented to an evaluator must have a high level of face validity to that person—which assumes the information presents a complete and accurate picture of their expectations for the data’s use.
 
-Shifting the focus to standardized patient-centric information quality assessment models, the PIQI Framework aims to support evaluation of data quality at the structural, or data element level. Providing prespecified parameters for a simplified structural analysis increases the certainty and usability of healthcare data, empowering healthcare organizations to make well informed decisions quickly that ultimately provide improved patient care. The PIQI Framework provides the ability to assess data against standard models, such as [United States Core Data for Interoperability (USCDI) v3](https://www.healthit.gov/isp/united-states-core-data-interoperability-uscdi#uscdi-v3), generating scorecards, and providing insights from the quality assessment process important to end users trusting the data is of sufficient quality. See the Table of Contents for more information.
+Shifting the focus to standardized patient-centric information quality assessment models, the PIQI Framework aims to support evaluation of data quality at the structural, or data element level. Providing prespecified parameters for a simplified structural analysis increases the certainty and usability of healthcare data, empowering healthcare organizations to make well informed decisions quickly that ultimately provide improved patient care. The PIQI Framework provides the ability to assess data in motion against standard models, such as [United States Core Data for Interoperability (USCDI) v3](https://www.healthit.gov/isp/united-states-core-data-interoperability-uscdi#uscdi-v3), generating scorecards, and providing insights from the quality assessment process important to end users trusting the data is of sufficient quality. See the Table of Contents for more information.
 
 ### Informative Document Overview and Scope
 The HL7 Cross Project Group (CPG) sponsored PIQI project is two-phased. This Informative Document is the first phase, in which, the PIQI Framework, it's components and approach to data quality evaluation are described. As an Informative Document, no HL7 product specific resources are defined herein. The second phase will encompass a cross-paradigm implementation guide (CP IG), which defines how the PIQI Framework and approach can be utilized across formats, namely the HL7 V2, CCDA and FHIR, will be produced in the second phase. Therefore specifics about how PIQI Framework relates to each HL7 product family is out of scope for the Informative Document and will be addressed in the PIQI CP IG.
 
-
 The main sections of this Informative Document include:
 
 *   [PIQI Background](background.html) - These pages provide background on the PIQI Framework.
-*   [Use Cases](usecases.html) - This pages describe known use cases and specific requirements for assessing data quality in various industry verticals.
-*   [PIQI Framework Model](model.html) - These pages define the structure of the PIQI Framework with examples.
+*   [Data Quality Use Cases](requirements_and_use_case.html) - This pages describe known use cases and specific requirements for assessing data quality in various industry verticals.
+*   [PIQI Framework](piqi_framework.html) - These pages define the structure of the PIQI Framework with examples.
 *   [Change Notes](changes.html) - This page documents the changes across the versions of the Terminology Change Set IG.
 
+Achieving higher data quality involves careful review and action throughout different stages of the health data lifecycle. However, the PIQI framework is primarily designed to objectively assess data quality at the point of data exchange—which is when data receivers first encounter the data. When PIQI-based assessments uncover data quality issues, organizations should work to address these problems by consulting comprehensive, end-to-end standards for health record data quality, such as the following:
+
+- [HL7/ISO 21089:2018 - Health Informatics - Trusted End-to-End Information Flows](https://www.iso.org/standard/66936.html)
+- [HL7/ISO 10781:2023 Electronic Health Record System Functional Model Release 1 (EHR-S FM)](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=528), Record Infrastructure (RI) Section
+- [HL7/ISO 16527:2023 Personal Health Record System Functional Model Release 2 (PHR-S FM)](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=88), Record Infrastructure (RI) Section
+- [HL7 FHIR R5 Record Lifecycle Event Implementation Guide (FHIR RLE IG - 2023)](http://hl7.org/fhir/uv/ehrs-rle/Informative1/)
+- [HL7/ASTM E2147-18 - Standards Specification for Audit and Disclosure Logs for Use in Health Information Systems](https://confluence.hl7.org/download/attachments/212760223/E2147-18%20copy.pdf?version=1&modificationDate=1736787249656&api=v2)
+
+It's important to note that PIQI is not intended to assess clinical judgement or accuracy of the processes of the data source. Rather, PIQI can ensure that the data being utilized in decision support has been evaluated based on metrics important for the use cases.
 
 ### Authors
 

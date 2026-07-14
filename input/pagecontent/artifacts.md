@@ -13,13 +13,33 @@ To support broad interoperability and repeatable benchmarking, PIQI publishes co
 
 #### Clinical Data Evaluation Rubric
 
-- **File:** [USCDI_v3_1.json](USCDI_v3_1.json)
+- **File:** [USCDI_Aligned_V31.json](USCDI_Aligned_V31.json)
 - **Role in consensus baseline:** Provides the shared USCDI-inspired evaluation rubric that operationalizes data quality checks for the clinical model.
 - **What it captures:**
 	- A sequenced criteria set (66 total checks) with predominantly scoring rules, plus informational checks.
 	- Concrete SAM-driven validation logic across entities, including terminology membership checks (for example, LOINC, SNOMED-CT, RxNorm, ICD-10-CM), value set/list validation, conditional checks, and temporal validity rules such as past-date validation.
 	- Criterion-level scoring controls such as weighting and criticality to standardize how failures contribute to quality outcomes.
 - **Why it is consensus-relevant:** Creates a widely reusable, transparent scoring baseline so different PIQI adopters can evaluate similar clinical datasets with consistent criteria and comparable results.
+
+#### Claims/EOB Data Model
+
+- **File:** [PAT_EOB_V1.json](PAT_EOB_V1.json)
+- **Role in consensus baseline:** Defines the canonical patient-centered PIQI model for claims and Explanation of Benefits (EOB) data, based on the Common Payer Consumer Data Set (CPCDS), used as the reference structure for community-aligned payer data quality evaluation.
+- **What it captures:**
+	- Nine data classes covering payer claims data domains: member demographics, coverage, medical claims, claim lines, claim diagnoses, claim procedures, pharmacy claims, dental claims, and provider information.
+	- Attribute-level definitions spanning simple attributes and codeable concepts, including detailed financial fields (submitted, allowed, paid, deductible, coinsurance, and copay amounts) and administrative claim metadata such as claim status, type, adjustment relationship, and inpatient-specific fields (admission date, discharge date, DRG code, admission type, and discharge status).
+- **Why it is consensus-relevant:** Establishes a shared structural target for PIQI payer-data implementations so quality checks against EOB and claims datasets are performed against consistent model assumptions aligned with the CPCDS standard.
+
+#### C4BB Inpatient EOB Evaluation Rubric
+
+- **File:** [EOB_C4BB_INPATIENT.json](EOB_C4BB_INPATIENT.json)
+- **Role in consensus baseline:** Provides the shared CARIN Blue Button-inspired evaluation rubric that operationalizes data quality checks for inpatient institutional EOB data using the claims/EOB model.
+- **What it captures:**
+	- A sequenced criteria set (54 total checks) with predominantly scoring rules, plus informational checks.
+	- Concrete SAM-driven validation logic across claims entities, including terminology membership checks (for example, ICD-9/ICD-10-CM for diagnoses, ICD-9/ICD-10-PCS for inpatient procedures, CPT/HCPCS for line-level procedure codes), value list validation, and temporal validity rules.
+	- Inpatient-specific checks covering DRG code presence, discharge status, admission type, inpatient source admission code, and present-on-admission indicators, alongside member demographic, coverage, and provider NPI validations.
+	- Criterion-level scoring controls including weighting and criticality indicators to standardize how failures contribute to quality outcomes.
+- **Why it is consensus-relevant:** Creates a reusable, transparent scoring baseline aligned with CARIN Blue Button (C4BB) expectations so different payer organizations can evaluate inpatient institutional EOB data quality with consistent criteria and comparable results.
 
 ### Schema Artifacts
 
